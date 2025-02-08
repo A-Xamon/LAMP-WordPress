@@ -34,9 +34,9 @@ sudo apt install apache2
 
 Una vez instalado, tendremos que entrar como root para 
 
-    1. Otorgarle permisos al usuario principal
+1. Otorgarle permisos al usuario principal
 
-    2. Crear una BDD para cuando instalemos wordpress
+2. Crear una BDD para cuando instalemos wordpress
 
 
 Para otorgarle los permisos al usuario root de mysql, primmero entrar a root
