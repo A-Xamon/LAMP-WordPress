@@ -176,5 +176,5 @@ Continua los pasos ya podras empezar
 
 PD: Una vez instalado, para entrar en administrador del wordpress y no en la pagina para ver, entra en la subcarpeta "wp-admin":
 
-**http://localhost/wordpress**
+**http://localhost/wordpress/wp-admin**
 
