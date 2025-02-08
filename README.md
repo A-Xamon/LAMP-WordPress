@@ -1,4 +1,5 @@
-# LAMP & Wordpress Full 
+# LAMP & Wordpress 🌐
+
  Guía de como instalar **LAMP y WORDPRESS**
 
 ## INDEX
@@ -8,11 +9,11 @@
 - [PHP](#lamP)
 - [WordPess](#WordPress)
 
-## LINUX
+## LINUX🐧
 
 Debes de estar utilizando Linux, yo lo he instalado en Ubuntu 24.04 y en mint 22
 
-## APACHE 🟢
+## APACHE 🌐
 ------------------------------------------------------------
 [Vuelve arriba 👆](#Lamp)
 Apache es el servicio web que utilizaremos para ejecutar wordpress de manera web, para instalarlo:
@@ -21,7 +22,7 @@ Apache es el servicio web que utilizaremos para ejecutar wordpress de manera web
 sudo apt install apache2 
 ```
 
-## MySQL 
+## MySQL 📂
 -------------------------------------------------------------
 [Vuelve arriba 👆](#Amp)
 
@@ -32,7 +33,11 @@ sudo apt install apache2
 ```
 
 Una vez instalado, tendremos que entrar como root para 
+
+
     1. Otorgarle permisos al usuario principal
+
+
     2. Crear una BDD para cuando instalemos wordpress
 
 
@@ -44,7 +49,7 @@ sudo -i
 
 ```
 
-Una vez en root, crea un archivo, en la ruta que quieras, como lo lo borraras despues, yo lo pondre en '/' y con tu editor favorito, escribiras en un archivo el siguiente texto
+Una vez en root, crea un archivo, en la ruta que quieras, yo lo pondre en '/' y con tu editor favorito, escribiras en un archivo el siguiente texto
 
 ```sql
 ALTER USER 'root'@'localhost' IDENTIFIED BY '1234321'; 
