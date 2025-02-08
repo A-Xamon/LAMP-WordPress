@@ -14,15 +14,17 @@ Debes de estar utilizando Linux, yo lo he instalado en Ubuntu 24.04 y en mint 22
 
 ## APACHE 🟢
 ------------------------------------------------------------
-[Vuelve arriba 👆](#INDEX)
+[Vuelve arriba 👆](#Lamp)
 Apache es el servicio web que utilizaremos para ejecutar wordpress de manera web, para instalarlo:
 
 ```bash 
 sudo apt install apache2 
 ```
 
-## MySQL
+## MySQL 
 -------------------------------------------------------------
+[Vuelve arriba 👆](#Amp)
+
 MySQL es el gestor de base de datos que utilizaremos, MySQL
 
 ```bash
@@ -96,7 +98,18 @@ Ahora si tienes algun problema o quieres crear tu propia BDD puedes entrar con e
 
 Una vez creado la BDD de wordpress, instalado LAMP y configurado MySQL para poder entrar desde un usuario propio, instalamos el comprimido de Wordpress
 
+## PHP
+---------------------------
+PHP es el lenguaje de programacion que utilizara Wordpress, asi que hace falta conectarlo con el [servicio web](#Lamp) y [MySQL](#laMp)
 
+```bash
+sudo apt install php php-mysql libapache2-mod-php
+```
+
+
+## WORDPRESS
+---------------------------
+[Vuelve arriba 👆](#WordPress)
 Entramos a la carpeta de publicacion de Apache2, donde esta configurado por defecto los archivos de ejecucion del servicio
 
 ```bash
@@ -134,10 +147,8 @@ OJO, DONDE PONGA **HERE** si no aparece en la linea, no se toca
 ```php
 define( 'DB_NAME', 'database_name_here' );
 
-/** Database username */
 define( 'DB_USER', 'username_here' );
 
-/** Database password */
 define( 'DB_PASSWORD', 'password_here' );
 
 ```
@@ -154,6 +165,13 @@ sudo systemctl restart apache2
 
 Y si entramos a nuestro navegador de la siguiente manera
 
-**http://localhost/wordpress
+**http://localhost/wordpress**
 
-## **Y a disfrutar!! **
+Continua los pasos ya podras empezar
+
+## Y a disfrutar!! 
+
+PD: Una vez instalado, para entrar en administrador del wordpress y no en la pagina para ver, entra en la subcarpeta "wp-admin":
+
+**http://localhost/wordpress**
+
