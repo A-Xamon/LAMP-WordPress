@@ -34,9 +34,7 @@ sudo apt install apache2
 
 Una vez instalado, tendremos que entrar como root para 
 
-
     1. Otorgarle permisos al usuario principal
-
 
     2. Crear una BDD para cuando instalemos wordpress
 
