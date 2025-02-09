@@ -3,21 +3,21 @@
  Guía de como instalar **LAMP y WORDPRESS**.
 
 ## INDEX
-- [Linux](#LINUX)
-- [Apache](#APACHE)
-- [MySQL](#laMp)
-- [PHP](#lamP)
-- [WordPess](#WordPress)
+- [Linux](#linux)
+- [Apache](#apache)
+- [MySQL](#mysql)
+- [PHP](#php)
+- [WordPress](#wordpress)
 
 ## LINUX🐧
-[Vuelve arriba 👆](#Linux)
+[Vuelve arriba 👆](#index)
 
-Debes de estar utilizando Linux, yo lo he instalado en Ubuntu 24.04 y en mint 22.
+Debes de estar utilizando Linux, yo lo he instalado en ***Ubuntu 24.04*** y en ***Mint 22***.
 
 ## APACHE 🌐
-[Vuelve arriba 👆](#Apache)
+[Vuelve arriba 👆](#index)
 
-Apache es el servicio web que utilizaremos para ejecutar wordpress de manera web, para instalarlo:
+Apache es el ***servicio web*** que utilizaremos para ejecutar wordpress de manera web, para instalarlo:
 
 ```bash 
 sudo apt install apache2 
@@ -25,20 +25,20 @@ sudo apt install apache2
 
 ## MySQL 📂
 
-[Vuelve arriba 👆](#lAmp)
+[Vuelve arriba 👆](#index)
 
-MySQL es el gestor de base de datos que utilizaremos, MySQL.
+MySQL es el gestor de base de datos que utilizaremos ***MySQL***.
 
 Para instalarlo:
 ```bash
 sudo apt install mysql-server
 ```
 
-Una vez instalado, tendremos que entrar como root para:
+Una vez instalado, tendremos que entrar como **root** para:
 
 1. Otorgarle permisos al usuario principal.
 
-2. Crear una BDD para cuando instalemos wordpress.
+2. Crear una **BDD** para cuando instalemos wordpress.
 
 
 Para otorgarle los permisos al usuario root de mysql, primero entrar a root:
@@ -99,9 +99,9 @@ Ahora si tienes algun problema o quieres crear tu propia BDD puedes entrar con e
 
 ## PHP
 
-[Vuelve arriba 👆](#lamP)
+[Vuelve arriba 👆](#index)
 
-PHP es el lenguaje de programacion que utilizara Wordpress, asi que hace falta conectarlo con el [servicio web](#Lamp) y [MySQL](#laMp)
+PHP es el lenguaje de programacion que utilizara Wordpress, asi que hace falta conectarlo con el [servicio web](#apache) y [MySQL](#mysql)
 
 ```bash
 sudo apt install php php-mysql libapache2-mod-php
@@ -112,7 +112,7 @@ Una vez creado la BDD de wordpress, instalado LAMP y configurado MySQL para pode
 
 ## WORDPRESS
 
-[Vuelve arriba 👆](#WordPress)
+[Vuelve arriba 👆](#index)
 Entramos a la carpeta de publicacion de Apache2, donde esta configurado por defecto los archivos de ejecucion del servicio
 
 ```bash
