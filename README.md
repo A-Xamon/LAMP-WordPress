@@ -14,7 +14,7 @@
 
 Debes de estar utilizando Linux, yo lo he instalado en ***Ubuntu 24.04*** y en ***Mint 22***.
 
-## APACHE 🌐
+## APACHE🌐
 [Vuelve arriba 👆](#index)
 
 Apache es el ***servicio web*** que utilizaremos para ejecutar wordpress de manera web, para instalarlo:
@@ -23,7 +23,7 @@ Apache es el ***servicio web*** que utilizaremos para ejecutar wordpress de mane
 sudo apt install apache2 
 ```
 
-## MySQL 📂
+## MySQL📂
 
 [Vuelve arriba 👆](#index)
 
