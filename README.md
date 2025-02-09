@@ -31,7 +31,7 @@ MySQL es el gestor de base de datos que utilizaremos, MySQL.
 
 Para instalarlo:
 ```bash
-sudo apt install apache2
+sudo apt install mysql-server
 ```
 
 Una vez instalado, tendremos que entrar como root para:
