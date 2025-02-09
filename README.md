@@ -3,19 +3,19 @@
  Guía de como instalar **LAMP y WORDPRESS**.
 
 ## INDEX
-- [Linux](#Lamp)
-- [Apache](#lAmp)
+- [Linux](#LINUX)
+- [Apache](#APACHE)
 - [MySQL](#laMp)
 - [PHP](#lamP)
 - [WordPess](#WordPress)
 
 ## LINUX🐧
-[Vuelve arriba 👆](#Lamp)
+[Vuelve arriba 👆](#Linux)
 
 Debes de estar utilizando Linux, yo lo he instalado en Ubuntu 24.04 y en mint 22.
 
 ## APACHE 🌐
-[Vuelve arriba 👆](#lAmp)
+[Vuelve arriba 👆](#Apache)
 
 Apache es el servicio web que utilizaremos para ejecutar wordpress de manera web, para instalarlo:
 
@@ -100,6 +100,7 @@ Ahora si tienes algun problema o quieres crear tu propia BDD puedes entrar con e
 ## PHP
 
 [Vuelve arriba 👆](#lamP)
+
 PHP es el lenguaje de programacion que utilizara Wordpress, asi que hace falta conectarlo con el [servicio web](#Lamp) y [MySQL](#laMp)
 
 ```bash
