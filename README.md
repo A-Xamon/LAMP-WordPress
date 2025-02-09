@@ -53,10 +53,10 @@ Una vez en root, crea un archivo, en la ruta que quieras, yo lo pondre en '/' y 
 ALTER USER 'root'@'localhost' IDENTIFIED BY '1234321'; 
 ``` 
 
-Lo guardaremos y ejecutaremos el comando para activar ese script:
+Lo guardaremos con el nombre que queráis y ejecutaremos el comando para activar ese script:
 
 ```bash
-sudo mysqld --init-file=/home/lucas/mysql-init &
+sudo mysqld --init-file=/mysql-init &
 ```
 
 Y reiniciamos el servicio de mysql:
