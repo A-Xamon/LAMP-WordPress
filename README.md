@@ -122,7 +122,7 @@ cd /var/www/html/
 E instalamos el comprimido
 
 ```bash
-sudo get https://wordpress.org/latest.tar.gz
+sudo wget https://wordpress.org/latest.tar.gz
 ```
 Descomprimimos
 
