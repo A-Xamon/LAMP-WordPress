@@ -139,7 +139,7 @@ cd wordpress/
 copiamos el archivo **wp-config-sample.php**
 
 ```bash
-sudo cp wp-config-sample.php wp-confi.php
+sudo cp wp-config-sample.php wp-config.php
 ```
 
 Entramos con nuestro editor de texto favorito y reemplazamos las siguientes.
